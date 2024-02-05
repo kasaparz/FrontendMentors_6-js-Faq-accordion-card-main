@@ -12,7 +12,6 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
@@ -20,7 +19,7 @@ This is a solution to the [FAQ accordion card challenge on Frontend Mentor](http
 
 ### The challenge
 
-Users should be able to:
+Users are able to:
 
 - View the optimal layout for the component depending on their device's screen size
 - See hover states for all interactive elements on the page
@@ -28,16 +27,25 @@ Users should be able to:
 
 ### Screenshot
 
-screenshots are in ".images" file
+All screenshots are in ".images" file
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL GitHub: (https://github.com/kasaparz/FrontendMentors_6-js-Faq-accordion-card-main)
+- Live Site URL: (https://kasaparz.github.io/FrontendMentors_6-js-Faq-accordion-card-main/)
+- Solution Site FrontendMentors:
 
 ### Built with
 
 HTML, JavaScript
+
+### what-i-learned
+
+I've learned how to build accordion, but it was really hard to make items closed after open another item...
+
+### continued-development
+
+I need to learn JavaScript more
 
 ## Author
 
