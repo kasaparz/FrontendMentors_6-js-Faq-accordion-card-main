@@ -1,0 +1,201 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Kumbh Sans", sans-serif;
+}
+.attribution {
+  font-size: 11px;
+  text-align: center;
+
+  width: 100%;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+main {
+  background: linear-gradient(
+    180deg,
+    rgba(175, 103, 233, 1) 0%,
+    rgba(101, 101, 231, 1) 100%
+  );
+  max-width: 1440px;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-items: center;
+  align-items: center;
+
+  margin: 0 auto;
+}
+.faq {
+  font-weight: 700;
+  font-size: 30px;
+  display: flex;
+  justify-content: start;
+  padding: 20px 0;
+}
+.container {
+  margin: 0 auto;
+  background-color: hsl(240, 5%, 91%);
+  padding: 0;
+  border-radius: 20px;
+  width: 1000px;
+  height: 600px;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.container-accordion {
+  width: 60%;
+  padding: 5%;
+}
+.title {
+  font-size: 18px;
+}
+
+.accordion-item {
+  padding: 20px 20px 20px 0;
+  border-bottom: 1px solid gray;
+}
+.accordion-header {
+  display: flex;
+  justify-content: space-between;
+}
+.accordion-header:hover {
+  color: hsl(14, 88%, 65%);
+}
+
+.accordion-content {
+  display: none;
+  margin-top: 20px;
+}
+.active {
+  font-weight: bold;
+}
+.bold {
+  font-weight: bold;
+}
+.up {
+  transform: rotate(180deg);
+}
+
+.container-foto {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  position: relative;
+  overflow: hidden;
+}
+.container-foto .woman {
+  display: flex;
+  height: 60%;
+  position: absolute;
+  right: 0;
+  top: 20%;
+}
+.container-foto .background {
+  height: 150%;
+
+  display: flex;
+  position: absolute;
+
+  bottom: -10%;
+  right: 0;
+}
+
+.box {
+  height: auto;
+  width: 22%;
+  display: flex;
+  position: absolute;
+  z-index: 1000;
+
+  top: 42%;
+  left: -11%;
+}
+
+@media (max-width: 1080px) {
+  .container {
+    width: 90%;
+  }
+  .box {
+    width: 20%;
+  }
+}
+@media (max-width: 1020px) {
+  .container {
+    width: 90%;
+  }
+  .container-foto .woman {
+    height: 55%;
+  }
+}
+
+@media (max-width: 990px) {
+  .container-foto .woman {
+    height: 50%;
+  }
+}
+
+@media (max-width: 790px) {
+  main {
+    height: 100vh;
+    flex-direction: column;
+    justify-content: end;
+  }
+  .faq {
+    justify-content: center;
+    margin-top: 70px;
+  }
+
+  .container {
+    max-width: 380px;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column-reverse;
+  }
+  .container-accordion {
+    width: 90%;
+    height: 100%;
+
+    padding: 5%;
+  }
+
+  .container-foto {
+    width: 70%;
+    height: 100px;
+
+    position: absolute;
+    top: 0;
+    overflow: visible;
+  }
+  .container-foto .woman {
+    width: 100%;
+    height: auto;
+
+    left: 0;
+    top: -100%;
+  }
+
+  .container-foto .background {
+    height: auto;
+    width: 100%;
+    top: -120%;
+    right: 0;
+  }
+  .box {
+    height: auto;
+    width: 30%;
+
+    top: -40px;
+    left: 35px;
+  }
+}
